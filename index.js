@@ -24,10 +24,10 @@ function prependKitten(name){
   kittens.unshift(name)
 }
 
-function destructivelyRemoveLastKitten(){
+function removeLastKitten(){
   kittens.pop()
 }
 
-function destructivelyRemoveFirstKitten(){
+function removeFirstKitten(){
   kittens.shift()
 }
